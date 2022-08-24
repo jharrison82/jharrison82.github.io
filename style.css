@@ -1,0 +1,131 @@
+.bd-sidebar {
+  grid-area: sidebar;
+}
+.bd-main {
+  grid-area: main;
+}
+.bd-intro {
+  grid-area: intro;
+}
+.bd-toc {
+  grid-area: toc;
+}
+.bd-content {
+  grid-area: content;
+}
+
+/* -- Sidebar -- */
+
+.bd-sidebar nav ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.bd-sidebar nav li {
+  margin-bottom: 0.5rem;
+}
+
+.bd-sidebar nav a {
+  text-decoration: none;
+}
+
+.bd-sidebar nav a:hover {
+  text-decoration: underline;
+}
+
+/* -- Table of contents -- */
+
+.bd-toc nav ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.bd-toc nav li {
+  margin-bottom: 0.25rem;
+}
+
+.bd-toc nav ul ul {
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+.bd-toc nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bd-toc nav a:hover {
+  text-decoration: underline;
+}
+
+.bd-callout {
+    padding: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    background-color: var(--bd-callout-bg, var(--bs-gray-100));
+    border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
+}
+
+.bd-callout p:last-child {
+    margin-bottom: 0;
+}
+
+a.external::after {
+	display: inline-block;
+	content: "";
+	background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/><path fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/></svg>");
+	background-repeat: no-repeat;
+	background-size: .75rem .75rem;
+	width: .75rem;
+	height: .75rem;
+	margin-left: .25rem;
+} 
+
+@media (min-width: 768px) {
+  .bd-main {
+    display: grid;
+    grid-template-areas:
+       "intro"
+       "toc"
+       "content";
+    grid-template-rows: auto auto 1fr;
+    gap: inherit;
+  }
+}
+
+@media (min-width: 992px) {
+  .bd-layout {
+    display: grid;
+    grid-template-areas: "sidebar main";
+    grid-template-columns: 1fr 6fr;
+    gap: 1.5rem;
+  }
+  .bd-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5rem;
+    display: block !important;
+    height: calc(100vh - 7rem);
+    padding-left: 0.25rem;
+    margin-left: -0.25rem;
+    overflow-y: auto;
+  }
+  .bd-main {
+    grid-template-areas:
+      "intro toc"
+      "content toc";
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 2fr 1fr;
+  }
+  .bd-toc {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 5rem;
+    right: 0;
+    z-index: 2;
+    height: calc(100vh - 7rem);
+    overflow-y: auto;
+  }
+}
