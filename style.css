@@ -18,6 +18,11 @@
   margin-bottom: 0;
 }
 
+.bd-links-link.active {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 /* -- Sidebar -- */
 
 .bd-sidebar nav ul {
