@@ -197,10 +197,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <p>An extract of the spreadsheet is shown in figure 2. As you can imagine, there is a lot of data, so the extract only shows data in USD, nominal terms, and for 5 years.</p>
           
           <div class="table-responsive">
-            <table class="table table-bordered table-striped small">
+            <table class="table table-bordered table-striped small text-nowrap">
               <caption>Figure 2: Extract of the quant team’s capital market assumptions spreadsheet</caption>
               <thead>
                 <tr>
+                  <th scope="col">Asset class</th>
                   <th scope="col">Sub-asset class</th>
                   <th scope="col" class="text-end">Return</th>
                   <th scope="col" class="text-end">Volatility</th>
@@ -209,6 +210,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </thead>
               <tbody class="table-group-divider">
                 <tr>
+                  <th rowspan="4" scope="row">Equities</th>
                   <td>Global equities</td>
                   <td class="text-end">6.0%</td>
                   <td class="text-end">12.0%</td>
@@ -233,12 +235,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <td class="text-end">0.28</td>
                 </tr>
                 <tr>
+                  <th rowspan="5" scope="row">Fixed income</th>
                   <td>Global bonds</td>
                   <td class="text-end">3.5%</td>
                   <td class="text-end">4.5%</td>
                   <td class="text-end">0.49</td>
                 </tr>
                 <tr>
+
                   <td>US government bonds</td>
                   <td class="text-end">2.0%</td>
                   <td class="text-end">4.2%</td>
@@ -263,6 +267,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <td class="text-end">-0.07</td>
                 </tr>
                 <tr>
+                  <th rowspan="4" scope="row">Portfolios</th>
                   <td>Global 60/40 portfolio</td>
                   <td class="text-end">4.5%</td>
                   <td class="text-end">8.0%</td>
