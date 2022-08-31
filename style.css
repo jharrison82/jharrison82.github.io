@@ -14,7 +14,7 @@
   grid-area: content;
 }
 
-.table-responsive > .table }
+.table-responsive > .table {
   margin-bottom: 0;
 }
 
