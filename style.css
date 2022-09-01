@@ -1,3 +1,7 @@
+.navbar-brand {
+  white-space: normal !important;
+}
+
 .bd-sidebar {
   grid-area: sidebar;
 }
