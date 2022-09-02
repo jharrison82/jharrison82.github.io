@@ -2,6 +2,9 @@
   overflow: hidden !important;
 }
 
+.bd-layout {
+  margin-top: 1.5rem !important;
+}
 .bd-sidebar {
   grid-area: sidebar;
 }
@@ -17,57 +20,34 @@
 .bd-content {
   grid-area: content;
 }
-
 .table-responsive > .table {
   margin-bottom: 0;
 }
-
-/* -- Sidebar -- */
-
-.bd-sidebar nav ul {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-.bd-sidebar nav li {
-  margin-bottom: 0.5rem;
-}
-
 .bd-sidebar nav a {
   text-decoration: none;
 }
-
 .bd-sidebar nav a:hover {
   text-decoration: underline;
 }
-
-/* -- Table of contents -- */
-
 .bd-toc nav ul {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
-
 .bd-toc nav li {
   margin-bottom: 0.25rem;
 }
-
 .bd-toc nav ul ul {
   padding-left: 1rem;
   margin-top: 0.25rem;
 }
-
 .bd-toc nav a {
   text-decoration: none;
   color: inherit;
 }
-
 .bd-toc nav a:hover {
   text-decoration: underline;
 }
-
 .bd-callout {
     padding: 1.25rem;
     margin-top: 1.25rem;
@@ -75,11 +55,9 @@
     background-color: var(--bd-callout-bg, var(--bs-gray-100));
     border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
 }
-
 .bd-callout p:last-child {
     margin-bottom: 0;
 }
-
 a.external::after {
 	display: inline-block;
 	content: "";
