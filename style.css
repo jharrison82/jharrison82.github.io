@@ -114,4 +114,8 @@ a.external::after {
     height: calc(100vh - 7rem);
     overflow-y: auto;
   }
+  .bd-intro, .bd-content {
+    padding-right: 3rem!important;
+    padding-left: 3rem!important;
+  }
 }
