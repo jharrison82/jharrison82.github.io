@@ -76,6 +76,11 @@ a.external::after {
 	margin-left: .25rem;
 } 
 
+.bd-footer {
+    padding-top: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+
 @media (min-width: 768px) {
   .bd-main {
     display: grid;
