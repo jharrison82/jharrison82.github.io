@@ -60,6 +60,10 @@
 .bd-callout p:last-child {
     margin-bottom: 0;
 }
+h2 {
+  font-size: calc(1.275rem + .3vw) !important;
+}
+
 a.external::after {
 	display: inline-block;
 	content: "";
