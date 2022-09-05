@@ -64,7 +64,9 @@
 h2 {
   font-size: 1.5rem !important;
 }
-
+h3 {
+  font-size: 1.25rem !important;
+}
 a.external::after {
 	display: inline-block;
 	content: "";
