@@ -1,9 +1,6 @@
 .navbar-brand {
   overflow: hidden !important;
 }
-.bd-layout {
-  margin-top: 1.5rem !important;
-}
 .bd-sidebar {
   grid-area: sidebar;
 }
