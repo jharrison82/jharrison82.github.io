@@ -28,7 +28,8 @@
 .bd-links-nav li {
   margin-bottom: 0.5rem;
 }
-.bd-sidebar nav a:hover {
+.bd-sidebar nav a:hover,
+.bd-sidebar nav a.active {
   text-decoration: underline;
 }
 .bd-toc nav ul {
