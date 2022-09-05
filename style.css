@@ -109,7 +109,7 @@ a.external::after {
     position: sticky;
     top: 5rem;
     display: block !important;
-    height: calc(100vh - 5rem);
+    height: calc(100vh - 10rem);
     padding-left: 0.25rem;
     margin-left: -0.25rem;
     overflow-y: auto;
@@ -127,7 +127,7 @@ a.external::after {
     top: 5rem;
     right: 0;
     z-index: 2;
-    height: calc(100vh - 5rem);
+    height: calc(100vh - 10rem);
     overflow-y: auto;
   }
   .bd-intro, .bd-content {
