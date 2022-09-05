@@ -51,14 +51,20 @@
 .bd-toc nav a:hover {
   text-decoration: underline;
 }
-.bd-callout {
-    padding: 1.25rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-    background-color: var(--bd-callout-bg, var(--bs-gray-100));
-    border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
+.bd-content ul li {
+  margin-bottom: 1rem !important;
 }
-.bd-callout p:last-child {
+.bd-content ul li:last-child {
+  margin-bottom: 0 !important;
+}
+.bd-content .bd-callout {
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  background-color: var(--bd-callout-bg, var(--bs-gray-100));
+  border-left: 0.25rem solid var(--bd-callout-border, var(--bs-gray-300));
+}
+.bd-content .bd-callout p:last-child {
     margin-bottom: 0;
 }
 h2 {
