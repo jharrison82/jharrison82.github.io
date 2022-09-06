@@ -19,7 +19,8 @@ html {
   text-align: left;
 }
 .bd-toc-toggle:hover,
-.bd-toc-toggle:active {
+.bd-toc-toggle:active,
+.bd-toc-toggle:focus {
   border-bottom-color: #cccccc !important;
 }
 .bd-toc-toggle.collapsed .bi-x-lg {
