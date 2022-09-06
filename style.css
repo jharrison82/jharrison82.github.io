@@ -181,6 +181,11 @@ a.external::after {
     height: calc(100vh - 10rem);
     overflow-y: auto;
   }
+  .bd-toc-collapse.collapse.show {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
   .bd-intro, .bd-content {
     padding-right: 3rem!important;
     padding-left: 3rem!important;
