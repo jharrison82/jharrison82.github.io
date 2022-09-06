@@ -18,7 +18,7 @@ html {
   width: 100%;
   text-align: left;
 }
-.bd-toc-toggle:hover.
+.bd-toc-toggle:hover,
 .bd-toc-toggle:active {
   border-bottom-color: #cccccc !important;
 }
