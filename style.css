@@ -15,6 +15,10 @@
   width: 100%;
   text-align: left;
 }
+.bd-toc-toggle:hover.
+.bd-toc-toggle:active {
+  border-bottom-color: #cccccc !important;
+}
 .bd-toc-toggle.collapsed .bi-x-lg {
   display: none !important;
 }
