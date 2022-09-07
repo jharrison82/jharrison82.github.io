@@ -104,8 +104,11 @@ a.external::after {
   height: .75rem;
   margin-left: .25rem;
 } 
-
-.table-responsive > .table {
+.table-responsive {
+  margin-bottom: 1rem;
+}
+.table-responsive .table {
+  margin-top: .5rem;
   margin-bottom: 0;
 }
 .bd-content ul li {
