@@ -112,15 +112,6 @@ a.external::after {
   height: .75rem;
   margin-left: .25rem;
 } 
-.text-toggle {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  background-color: transparent;
-  color: var(--bs-link-color);
-  text-decoration: underline;
-  vertical-align: baseline;
-}
 .table-responsive {
   margin-bottom: 1rem;
 }
