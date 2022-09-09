@@ -48,6 +48,32 @@ html {
 .bd-sidebar nav a:hover {
   text-decoration: underline;
 }
+.bd-next-chapter {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.bd-next-chapter a {
+  border-top: 1px solid #cccccc;
+}
+.bd-next-chapter a {
+  display: block;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  text-decoration: none !important;
+}
+.bd-next-chapter a i {
+  color: #333333;
+  margin-left: .25rem;
+  font-size: 1.5rem;
+}
+.bd-next-chapter .bd-next-label {
+  color: #cccccc;
+  font-size: .825rem;
+  margin-bottom: .25rem;
+}
+.bd-next-chapter .bd-chapter-name {
+  text-decoration: underline !important;
+}
 .bd-toc nav ul {
   padding-left: 0;
   margin-bottom: 0;
@@ -216,7 +242,9 @@ a.external::after {
     padding-bottom: 0;
     margin-bottom: 0;
   }
-  .bd-intro, .bd-content {
+  .bd-intro, 
+  .bd-content, 
+  .bd-next-chapter {
     padding-right: 3rem!important;
     padding-left: 3rem!important;
   }
