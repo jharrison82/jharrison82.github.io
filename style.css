@@ -46,6 +46,7 @@ html {
   display: block;
 }
 .bd-links-nav a.active {
+  font-weight: 600;
 }
 .bd-sidebar nav a:hover {
   text-decoration: underline;
