@@ -48,7 +48,7 @@ html {
 .bd-links-nav a.active {
   font-weight: 600;
 }
-.bd-sidebar nav a:hover {
+.bd-links-nav a:hover {
   text-decoration: underline;
 }
 .bd-next-chapter {
