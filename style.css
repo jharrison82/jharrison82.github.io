@@ -45,7 +45,7 @@ html {
   text-decoration: none;
   display: block;
 }
-.bd-links-nav a.active {
+body.goals .bd-links-nav li.goals a {
   font-weight: 600;
 }
 .bd-links-nav a:hover {
