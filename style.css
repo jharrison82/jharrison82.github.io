@@ -244,6 +244,7 @@ a.external::after {
       "content toc";
     grid-template-rows: auto 1fr;
     grid-template-columns: 2fr 1fr;
+    gap: 0;
   }
   .bd-toc {
     position: -webkit-sticky;
