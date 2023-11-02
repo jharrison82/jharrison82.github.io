@@ -18,7 +18,7 @@
     <script> 
       $(function(){
         $("#header").load("--header.html"); 
-	$("#footer").load("--footer.html"); 
+	$("#aside").load("--aside.html"); 
       });
     </script> 
 
@@ -30,24 +30,8 @@
 	
 	<div class="container-xxl">
 		<div class="row">
-			<aside class="col-3 py-3">
-				<ul class="list-unstyled">
-					<li>Introduction</li>
-					<li>Goals</li>
-					<li>Strategy</li>
-					<li><span class="text-muted">Firm research</span>
-						<ul class="list-unstyled ms-2">
-							<li>Business overview</li>
-							<li><a href="5.html">Investment strategies</a></li>
-							<li>Investment vehicles</li>
-							<li><a href="7.html">Target audience</a></li>
-						</ul>
-					</li>
-					<li><span class="text-muted">Implementation</span>
-						
-					</li>					
-				</ul>
-			</aside>
+			<div id="aside"></div>
+			
 			<main class="col-6 py-3">
 			
 				<h1 class="h2 mb-3">Investment Strategies</h1>
