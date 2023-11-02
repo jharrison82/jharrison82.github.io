@@ -261,6 +261,9 @@ a.external::after {
     padding-bottom: 0;
     margin-bottom: 0;
   }
+  .bd-intro {
+    margin-top: .25rem!important;
+  }
   .bd-intro, 
   .bd-content, 
   .bd-next-chapter {
