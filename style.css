@@ -46,7 +46,8 @@ html {
   display: block;
 }
 body#pg-introduction .bd-links-nav li.introduction a,
-body#pg-goals .bd-links-nav li.goals a {
+body#pg-goals .bd-links-nav li.goals a,
+body#pg-strategy .bd-links-nav li.strategy a {
   font-weight: 600;
 }
 .bd-links-nav a:hover {
