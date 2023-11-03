@@ -4,7 +4,6 @@ html {
 }
 .navbar-brand {
   overflow-x: auto !important;
-  font-family: 'Lora', serif;
   font-family: 'Rubik', sans-serif;
 }
 .bd-toc {
