@@ -8,110 +8,75 @@
     <meta name="author" content="John Harrison">
 
     <title>Investment Strategies | Digital Marketing for B2B Investment Management</title>
-
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js></script>
     <link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <script> 
       $(function(){
         $("#header").load("--header.html"); 
-	$("#aside").load("--aside.html"); 
+        $("#aside").load("--aside.html"); 
+				$("#footer").load("--footer.html"); 
       });
     </script> 
 
   </head>
   
-  <body>
-	  <header id="header" class="navbar bg-light bd-navbar sticky-top"></header>
+  <body id="pg-investment-strategies">
+	  
+		<header id="header" class="navbar bd-navbar bg-light sticky-top"></header>
 	
-	<div class="container-xxl bd-layout">
+		<div class="container-xxl bd-layout">
+			
 			<aside id="aside" class="bd-sidebar"></aside>
 			
 			<main class="bd-main">
-			      <div class="bd-intro">
-                                <h1 class="h2 mb-3">Investment Strategies</h1>
-				<hr>
-			      </div>
-			      <div class="bd-toc text-muted">
-				<button class="btn btn-link text-decoration-none bd-toc-toggle d-block d-md-none collapsed d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#tocContents" aria-expanded="false" aria-controls="tocContents"><span class="flex-grow-1">In this chapter</span><i class="bi bi-chevron-down"></i><i class="bi bi-x-lg"></i></button>
-				<strong class="d-none d-md-block h6 mb-2">In this chapter</strong>
-				<div class="bd-toc-collapse collapse" id="tocContents" style="">
-				  <nav class="small" id="bd-toc-nav">
-				    <ul>
-				      <li><a href="#who-is-this-guide-for">Who is this guide for?</a></li>
-				      <li><a href="#how-will-this-guide-help-you">How will this guide help you?</a></li>
-				      <li><a href="#if-you-have-questions">If you have questions</a></li>
-				      <li><a href="#disclaimer">Disclaimer</a></li>
-				    </ul>
-				  </nav>
-				</div>
-			      </div>
+			
+			  <div class="bd-intro">
+					<h1 id="introduction" class="h2 border-bottom pb-3 mb-3">Investment Strategies</h1>
+			  </div>
 				
 				
-
-
+			  <div class="bd-toc text-muted">
+					<button class="btn btn-link text-decoration-none bd-toc-toggle d-block d-md-none collapsed d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#tocContents" aria-expanded="false" aria-controls="tocContents"><span class="flex-grow-1">In this chapter</span><i class="bi bi-chevron-down"></i><i class="bi bi-x-lg"></i></button>
+					<strong class="d-none d-md-block h6 mb-2">In this chapter</strong>
+					<div class="bd-toc-collapse collapse" id="tocContents" style="">
+						<nav class="small" id="bd-toc-nav">
+							<ul>
+								<li><a href="#tbc">TBC</a></li>
+							</ul>
+						</nav>
+					</div>
+			  </div>
+				
 				<div class="bd-content">
 				
-				<p>The next step is to list all investment strategies your firm offers, globally. This information should be available internally (the RFP team are a good place to start), in regulatory documents, or within the capabilities or strategies section of the firm’s website.</p>
+				<p>Intro text will go here</p>
 				
-				<p>Lewisham’s range of investment strategies are shown in Figure 5.1.</p>
+				</div>
 				
-				<figure class="figure d-block mt-3 mb-4">
-					<table class="table table-bordered small">
-						<thead class="text-muted small">
-							<tr>
-								<th scope="col">Asset class</th>
-								<th scope="col">Strategy</th>
-								<th scope="col">Benchmark</th>
-								<th scope="col">Typical holdings</th>
-							</tr>
-						</thead>
-						<tbody class="small">
-							<tr>
-								<th scope="row" rowspan="3" class="fw-normal">Equity</th>
-								<td><strong>Global Equity</strong></td>
-								<td>MSCI All Country World Index</td>
-								<td>30-40 stocks</td>
-							</tr>
-							<tr>
-								<td><strong>International Equity</strong></td>
-								<td>MSCI EAFE Index</td>
-								<td>25-30 stocks</td>
-							</tr>
-							<tr>
-								<td><strong>US Equity</strong></td>
-								<td>S&amp;P 500 Index</td>
-								<td>25-25 stocks</td>
-							</tr>
-							<tr>
-								<th scope="row" class="fw-normal">Fixed income</th>
-								<td><strong>Global Bond</strong></td>
-								<td>Bloomberg Global Aggregate Bond Index</td>
-								<td>25-50 issuers</td>
-							</tr>
-						</tbody>
-					</table>
-					<figcaption class="figure-caption">Figure 5.1: Lewisham Asset Management’s investment strategies</figcaption>
-				</figure>
-				
-				<p>At this point, you may be unsure what an investment strategy is. It is simply an approach to investing in some area of the financial markets. As an example, the portfolio managers of Lewisham’s Global Equity strategy (shown in figure 5.1) have an initial universe of all the companies within a global stock market index to choose from – the <a href="https://www.investopedia.com/terms/m/msci-acwi.asp" target="_blank">MSCI All Country World Index</a> (ACWI) – which contains nearly 3,000 companies from around the world.</p>
-				
-				<p>At this point, we can differentiate between two main types of investment strategy. <strong>Passive strategies</strong> aim to recreate an index portfolio as closely as possible (a passive strategy is the first step towards making an index investable) whereas <strong>active strategies</strong> only select a portion of investments from the relevant index. For example, a passive strategy based on the MSCI ACWI will hold the same 3,000 companies in the same weights as the index (as closely as is practical), whereas an active strategy (such as Lewisham’s Global Equity strategy) will hold a more concentrated portfolio of companies the managers believe have the best long-term prospects.</p>			
-				
-				<p>An active investment strategy will usually have a set of guidelines in place, which may include: (1) the typical number of holdings in the strategy portfolio, (2) maximum size of any single holding as a percentage of the total portfolio, or (3) requirements for individual holdings (a minimum company size for stocks, or credit rating for bonds, etc). Working within these guidelines, portfolio managers apply an investment process that was devised for the strategy. This process determines which investments are selected from the index to hold in the strategy portfolio (which may vary over time, as conditions change).</p>
-				
+				<nav class="bd-next-chapter">
+					<a class="d-flex align-items-center" href="6-investment-vehicles.html">
+						<div class="d-flex flex-column flex-grow-1">
+							 <span class="bd-next-label">Next chapter</span>
+							 <span class="bd-chapter-name">Investment vehicles</span>
+						</div>
+						<i class="bi bi-chevron-right"></i>
+					</a>
+				</nav>
+
 			</main>
-	</div>
+			
+		</div>
      
-  <footer class="bd-footer bg-light">  
-    <div class="container-xxl">
-      <p class="small text-muted mb-0">Built using <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>, <a href="https://notepad-plus-plus.org/" target="_blank" rel="noopener">Notepad++</a>, <a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a> and <a href="https://formspree.io/" target="_blank" rel="noopener">Formspree</a>. Hosted on <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>. Thanks for visiting <i class="bi bi-suit-heart-fill"></i></p>
-    </div>
-  </footer>
+		<footer id="footer" class="bd-footer border-top"></footer>
     
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 
-</body>
+	</body>
 </html>
