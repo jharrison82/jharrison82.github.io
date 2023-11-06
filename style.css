@@ -50,8 +50,8 @@ body#pg-introduction .bd-links-nav li.introduction a,
 body#pg-goals .bd-links-nav li.goals a,
 body#pg-strategy .bd-links-nav li.strategy a,
 body#pg-business-overview .bd-links-nav li.business-overview a,
-body#pg-investment-strategies .bd-links-nav li.business-overview a,
-body#pg-investment-vehicles .bd-links-nav li.business-overview a {
+body#pg-investment-strategies .bd-links-nav li.investment-strategies a,
+body#pg-investment-vehicles .bd-links-nav li.investment-vehicles a {
   font-weight: 600;
 }
 .bd-links-nav a:hover {
