@@ -6,6 +6,9 @@ html {
   overflow-x: auto !important;
   font-family: 'Rubik', sans-serif;
 }
+.bd-intro {
+  margin-top: 1rem !important;
+}
 .bd-toc {
   padding: 0;
   margin: 0;
