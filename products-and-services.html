@@ -87,7 +87,7 @@
 						<figure class="figure d-block mt-3 mb-4">
 							<div class="table-responsive">
 								<table class="table table-bordered small">
-									<thead class="text-muted">
+									<thead class="small text-muted">
 										<tr>
 											<th scope="col" class="align-top">Stock name</th>
 											<th scope="col" class="align-top">Ticker</th>
@@ -95,7 +95,7 @@
 											<th scope="col" class="align-top text-end">Index weight</th>
 										</tr>
 									</thead>
-									<tbody>
+									<tbody class="small">
 										<tr>
 											<th scope="row">Apple Inc</th>
 											<td><a class="external" href="https://www.google.com/finance/quote/AAPL:NASDAQ" target="_blank">AAPL</a></td>
@@ -135,13 +135,13 @@
 							</figcaption>
 						</figure>
 						
-						<p>Next, an important distinction is made: whether the investment strategy is <strong>active</strong> or <strong>passive</strong>.</p>
+						<p>Next, an important distinction is made: whether the strategy is <a class="external" href="https://www.investopedia.com/terms/a/activeinvesting.asp" target="_blank">active</a> or <a class="external" href="https://www.investopedia.com/terms/p/passiveinvesting.asp" target="_blank">passive</a>.</p>
 						
 						<h3 id="passive-investment-strategies" class="h6 border-bottom pt-3 pb-3 mb-3">Passive investment strategies</h3>	
 						
-						<p> A <strong>passive strategy</strong> simply aims to recreate the portfolio of investments in the appropriate market index. If the global equity strategy from the previous example was created as a passive strategy, it would hold the same companies as the ACWI in exactly the same weights (or as closely as is practical: for various reasons, the smallest weighted holdings are sometimes not included in passive strategies that replicate an index that has a large number of total holdings).</p>
+						<p>A <strong>passive strategy</strong> aims to replicate the portfolio of investments in the appropriate market index. If the global equity strategy from the previous example was created as a passive strategy, it would hold the same companies as the ACWI in exactly the same weights, or as closely as is practical (for logistical reasons, the smallest weighted holdings are sometimes excluded from strategies that replicate an index with a large number of total holdings).</p>
 						
-						<p>Importantly, market indexes aren't available to invest in directly, so creating a passive strategy forms the first step in making an index available for actual investment (it's only the first step because strategies are also unavailable for investment until an <a href="#investment-vehicles">investment vehicle</a> is in place).</p>
+						<p>Importantly, market indexes are theoretical: they can't be invested in directly. Creating a passive strategy is a first step in making an index available for actual investment (the second step is making a strategy available for investment via an <a href="#investment-vehicles">investment vehicle</a>, which we will cover shortly).</p>
 
 						<h3 id="active-investment-strategies" class="h6 border-bottom pt-3 pb-3 mb-3">Active investment strategies</h3>	
 						
@@ -149,7 +149,7 @@
 						
 						<p>Typically, an active strategy will have a set of guidelines in place: the number of holdings to be held in the strategy portfolio, a maximum size of any single holding as a percentage of the total portfolio, requirements for individual holdings (a minimum company size for stocks, or credit rating for bonds), and so on.</p>
 						
-						<p>Working within the guidelines, portfolio managers apply an <strong>investment process</strong> devised for the strategy to select investments from the index to hold in the strategy portfolio, with holdings tending to vary over time, as conditions change. An investment process for an actively managed strategy typically incorporates the principles from the managing firm's larger investment philosophy.</p>
+						<p>Working within the guidelines, portfolio managers devise and apply an <strong>investment process</strong> to select investments from the index to hold in the strategy portfolio (holdings may vary over time, as conditions change). The guidelines and investment process usually incorporates principles from the managing firm's overall <a class="external" href="https://www.investopedia.com/terms/i/investment-philosophy.asp" target="_blank">investment philisophy</a>.</p>
 					
 						<h3 id="performance-benchmarks" class="h6 border-bottom pt-3 pb-3 mb-3">Performance benchmarks</h3>	
 
@@ -162,34 +162,34 @@
 						<figure class="figure d-block mt-3 mb-4">
 							<div class="table-responsive">
 								<table class="table table-bordered small">
-									<thead class="text-muted">
+									<thead class="text-muted small">
 										<tr>
-											<th scope="col">Asset class</th>
-											<th scope="col">Strategy name</th>
-											<th scope="col">Benchmark</th>
-											<th scope="col">Typical holdings</th>
+											<th scope="col" class="align-top">Asset class</th>
+											<th scope="col" class="align-top">Strategy name</th>
+											<th scope="col" class="align-top">Benchmark</th>
+											<th scope="col" class="align-top">Typical holdings</th>
 										</tr>
 									</thead>
-									<tbody>
+									<tbody class="small">
 										<tr>
 											<th scope="row" rowspan="3" class="fw-normal">Equity</th>
-											<td><strong>Global Equity</strong></td>
+											<td><strong>Lewisham Global Equity Strategy</strong></td>
 											<td>MSCI All Country World Index</td>
 											<td>30-40 stocks</td>
 										</tr>
 										<tr>
-											<td><strong>International Equity</strong></td>
+											<td><strong>Lewisham International Equity</strong></td>
 											<td>MSCI EAFE Index</td>
 											<td>25-30 stocks</td>
 										</tr>
 										<tr>
-											<td><strong>US Equity</strong></td>
+											<td><strong>Lewisham US Equity</strong></td>
 											<td>S&amp;P 500 Index</td>
 											<td>25-25 stocks</td>
 										</tr>
 										<tr>
 											<th scope="row" class="fw-normal">Fixed income</th>
-											<td><strong>Global Bond</strong></td>
+											<td><strong>Lewisham Global Bond</strong></td>
 											<td>Bloomberg Global Aggregate Bond Index</td>
 											<td>25-50 issuers</td>
 										</tr>
@@ -201,14 +201,16 @@
 							</figcaption>
 						</figure>						
 											
-						<p>All of the firm's strategies are actively managed and hold concentrated portfolios of underlying investments selected using a value investing process &mdash; all in line with <a href="business-overview.html#business-overview-for-lewisham-asset-management">the firm's overall investment philosophy</a>. For example, the portfolio managers of their Global Equity strategy hold between 30 to 40 stocks in the strategy portolio, selected from the roughly 3,000 that are available in the MSCI All Country World Index.</p>
-
-						<p>The next step is to list all investment strategies your firm offers, globally. This information should be available internally (the RFP team are a good place to start), in regulatory documents, or within the capabilities or strategies section of the firm’s website.</p>
+						<p>All of Lewisham's strategies are actively managed, holding concentrated portfolios of underlying investments selected with a value-orientated investment process &mdash; all in line with <a href="business-overview.html#business-overview-for-lewisham-asset-management">the firm's overall investment philosophy</a>. For example, the portfolio managers of the Lewisham Global Equity Strategy select between 30 to 40 stocks to hold in the strategy portolio, which are those they consider the most undervalued from the roughly 3,000 available in the MSCI All Country World Index.</p>
+						
+						<div class="p-4 mb-3 border position-relative">
+							<p class="mb-0">Try to list all the investment strategies your firm offers, like figure 2. This information should be available internally (the RFP team are a good place to start), in regulatory documents, or within the capabilities or strategies section of the firm’s website.</p>
+						</div>
 						
 						<h2 id="investment-vehicles" class="h5 border-bottom pt-3 pb-3 mb-3">Investment vehicles</h2>	
 						
-						<p>Importantly, a strategy is similar to an index in that it cannot be invested in directly. To allow investment, a strategy must have an associated investment vehicle in place (such as a mutual fund or a separately managed account) that gives investors something tangible to be bought and sold (for passive strategies, this is the second step towards making indexes available for real investment).</p>
-												
+						<p>Like a market index, an investment strategy is hypothetical, and cannot be invested in directly. To allow investment, there must be an associated <strong>investment vehicle</strong> in which investments are bought and sold according to a strategy &mdash; such as a mutual fund or a separately managed account &mdash; to give investors something tangible to buy and sell (for passive strategies, this is the second step towards making indexes available for real investment).</p>
+						
 						<!-- copy up to here -->
 						
 					</div>
