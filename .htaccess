@@ -1,0 +1,4 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Redirect 301 /2-goals.html /goals.html
+</IfModule>
