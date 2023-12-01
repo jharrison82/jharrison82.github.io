@@ -1,4 +1,4 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
-Redirect 301 /2-goals.html /goals.html
+Redirect 301 /2-goals.html https://digital-marketing-for-b2b-investment.management/goals.html
 </IfModule>
