@@ -742,11 +742,65 @@
 							</figcaption>
 						</figure>
 						
-						<p>An International Securities Identification Number, more commonly known as an ISIN, is shown for each share class. As well as serving as the unique identifier for a share class – like a ticker for a stock or US mutual fund – the ISIN is often used to search for share classes in search engines or on investment manager websites, instead of the name (which can sometimes be quite long).</p>
-						
-						<p>As Lewisham have domiciled their fund company in Luxembourg, all UCITS share classes have been registered in Luxembourg before being passported to other European Union countries as needed. And as the first two letters of an ISIN indicate which country the fund company is domiciled in, each of the UCITS share classes ISINs begin with LU.</p>
+						<p>As Lewisham have domiciled their fund company in Luxembourg, all UCITS share classes have been registered in Luxembourg before being passported to other European Union countries as needed. This also means that the share class <a class="external" href="https://www.investopedia.com/terms/i/isin.asp" target="_blank">ISINs</a> (International Securities Identification Numbers) listed in figure 7 &mdash; which serve as a unique identifier and are often used to search for share classes online &mdash; all begin with LU, as the first two letters of an ISIN indicate which country the fund company is domiciled in.</p>
 						
 						<p>Something that I recently learned is that professional investors can invest in any UCITS share class they wish, even if it is not registered in their country (and their country is outside the European Union). Despite this, share classes which aren’t registered in a specific country still cannot be marketed to investors who are in that country (such as being displayed on a website), even if they identify themselves as professional investors. This means that you may see countries outside those that a share class is registered in for breakdowns of AUM by investor country, but it won’t affect marketing efforts.</p>
+						
+						<p>Lewisham's available share classes can also help us understand how the currency and hedging options can work in practice. Let's look at the <strong>Lewisham US Equity UCITS Fund</strong>. The fund's underlying investments &mdash; the stocks of US companies &mdash; are priced in US Dollars (USD). The fund’s base currency is also set to USD (if all a sub-fund’s underlying investments are within a single country, the sub-fund’s base currency will typically match the currency of the underlying investments).</p>
+						
+						<p>The fund’s net asset value (NAV) is calculated once per day, in the base currency, by dividing the total value of the investments held in the fund by the number of fund units. Dividing holdings valued at $100m by 10 million fund units would give a daily NAV of $10.00. Investors can purchase or sell a unit of the fund at this price on that day. The NAV may rise or fall the next day; if the fund’s investments increase in value at $102 million, and the number of units stay the same, the NAV would become $10.20 (a return of +2%).</p>
+						
+						<p>The first share class launched for the Lewisham US Equity UCITS Fund was denominated in USD, the same as the fund’s base currency. However, UCITS funds are aimed primarily at investors in the European Union, who will have a different local currency &mdash; Euro (EUR), Pound Sterling (GBP), Swiss Franc (CHF), and so on. This means that at some point, a currency exchange must occur between the USD share class and the investor’s local currency (possibly made by a broker that handled the transaction, who may set a disadvantageous rate for the investor). For example, a UK-based investor’s holdings in the Lewisham US Equity UCITS Fund's USD share class must at some point be converted to GBP.</p>
+						
+						<p>Investment managers can make it more convenient for investors by offering share classes priced in their local currency (and presumably, they also use a better exchange rate for investors than brokers). Investment performance is also calculated in the relevant currency. Lewisham have previously launched a share class of the US Equity UCITS Fund for UK investors, with its NAV priced in GBP – roughly speaking, if the USD NAV is $10.00, and the USD/GBP exchange rate is 0.82, the GBP NAV would be roughly £8.20.</p>
+						
+						<p>To further complicate matters, currency exchange rates change over time. Therefore, the investment performance of the GBP share class will deviate from the USD share class – even though they share the same underlying fund investments. For example, if the investments held by the US Equity UCITS Fund rise in value by 2%, the USD NAV would rise by the same amount – as the investments are also priced in USD. However, performance of the GBP share class is also affected by changes in the USD/GBP exchange rate. If, during the same period, the USD/GBP rate moved from 0.82 to 0.81 (the GBP weakens in value by 1.22% against the USD) investors in the GBP share class investors would receive a lower return of around 0.76%.</p>
+						
+						<p>The share class return can be split into two components: (1) fund performance in the base currency (e.g., USD), and (2) the change in value of the share class currency versus the fund’s base currency, if they are different (e.g., USD/GBP).</p>
+						
+						<figure class="figure d-block mt-3 mb-4">
+							<div class="table-responsive">
+								<table class="table table-bordered small">
+									<thead class="small text-muted">
+										<tr>
+											<th scope="col" class="align-top">Fund base currency</th>
+											<th scope="col" class="align-top">Share class currency</th>
+											<th scope="col" class="align-top text-end">Fund return (in base currency)</th>
+											<th scope="col" class="align-top text-end">Exchange rate change</th>
+											<th scope="col" class="align-top text-end">Share class return</th>
+										</tr>
+									</thead>
+									<tbody class="small">
+										<tr>
+											<td rowspan="3">USD</td>
+											<td>USD</td>
+											<td class="text-end">2.00%</td>
+											<td class="text-end">-</td>
+											<td class="text-end fw-bold">2.00%</td>
+										</tr>	
+										<tr>
+											<td>GBP</td>
+											<td class="text-end">2.00%</td>
+											<td class="text-end">(1.22%)</td>
+											<td class="text-end fw-bold">0.76%</td>
+										</tr>		
+										<tr>
+											<td>GBP Hedged</td>
+											<td class="text-end">2.00%</td>
+											<td class="text-end">(0.02%)</td>
+											<td class="text-end fw-bold">1.98%</td>
+										</tr>											
+									</tbody>
+								</table>
+							</div>
+							<figcaption class="figure-caption">
+								<p class="fw-bold mb-0">Figure 6: Example returns of share class denominated in a different currency</p>
+							</figcaption>
+						</figure>
+						
+						<p>For investors who are uncomfortable with this currency risk, some investment managers offer “currency hedged” share classes, in which the fund managers attempt to remove the impact of exchange rate changes on the share class return – usually via currency forward contracts. Investors still buy and sell the share class in their local currency, but only receive the fund return component (essentially, the return of the underlying investments). Note, however, that currency hedging is imperfect – it cannot remove 100% of the currency risk – so investment performance of a hedged share class will still be slightly affected by exchange rate changes.</p>
+						
+						<p>Note that more complex examples exist than those we've covered &mdash; for example, funds can hold investments priced in multiple currencies, other types of currency hedging are attempted, and so on &mdash; but they are out of scope for this guide.</p>
 						
 						<h3 id="separately-managed-accounts" class="h5 border-bottom pt-3 pb-3 mb-3">Separately managed accounts (SMAs)</h3>
 
@@ -767,8 +821,8 @@
 								<table class="table table-bordered small">
 									<thead>
 										<tr>
-											<th scope="col" rowspan="2" class="align-top text-muted">Investment Vehicle</th>
-											<th scope="col" rowspan="2" class="align-top text-center">Separately managed account (SMA)</th>
+											<th scope="col" rowspan="2" class="align-middle text-muted">Investment Vehicle</th>
+											<th scope="col" rowspan="2" class="align-middle text-center">Separately managed <br>account (SMA)</th>
 											<th scope="col" colspan="2" class="align-top text-center">Mutual fund 
 										</tr>
 										<tr>
