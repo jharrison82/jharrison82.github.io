@@ -54,7 +54,8 @@ body#pg-goals .bd-links-nav li.goals a,
 body#pg-strategy .bd-links-nav li.strategy a,
 body#pg-business-overview .bd-links-nav li.business-overview a,
 body#pg-products-and-services .bd-links-nav li.products-and-services a,
-body#pg-target-audience .bd-links-nav li.target-audience a {
+body#pg-target-audience .bd-links-nav li.target-audience a,
+body#pg-languages .bd-links-nav li.languages a {
   font-weight: 600;
 }
 .bd-links-nav a:hover {
