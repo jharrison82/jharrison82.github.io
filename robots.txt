@@ -1,1 +1,2 @@
+Disallow: /i/*
 Sitemap: https://digital-marketing-for-b2b-investment.management/sitemap.xml
