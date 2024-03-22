@@ -1,0 +1,171 @@
+.logo {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 1rem;
+}
+.container-xxl {
+	padding: 0 !important;
+}
+header > .container-xxl {
+	background: #003b4a;
+	background-image: url(https://storage.pardot.com/892601/1698846908y6ZZ6FOh/hero.png);
+  background-size: cover;
+}
+.intro p {
+	max-width: 800px;
+	font-weight: 300;
+}
+.btn {
+	display: block;
+	margin-bottom: .75rem;
+	text-align: left;
+}
+.btn .bi {
+	margin-right: .25rem;
+}
+.btn-outline-primary {
+	color: #003b4a !important;
+	border-color: #003b4a !important;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:active,
+.btn-outline-primary:focus,
+.btn-outline-primary:focus-visible,
+.btn-outline-primary.show		{
+	color: #ffffff !important;
+	background-color: #003b4a !important;
+	border-color: #003b4a !important;
+}
+.btn-outline-primary:active {
+	background: #003b4a !important;
+}		
+.btn-outline-primary.disabled {
+	color: #aaa !important;
+	background-color: transparent !important;
+	border-color: #aaa !important;
+}
+
+.d-factsheet {
+	border-left: 8px solid #fab617 !important;
+	border-color: #fab617 !important;
+}
+.d-profile {
+	border-left: 8px solid #25757e !important;
+	border-color: #25757e !important;
+}
+.d-presentation {
+	border-left: 8px solid #914493 !important;
+	border-color: #914493 !important;
+}
+.d-manager-profile {
+	border-left: 8px solid #c04087 !important;
+	border-color: #c04087 !important;
+}
+.d-other {
+	border-left: 8px solid #ef2e24 !important;
+	border-color: #ef2e24 !important;
+}
+
+header > .container-xxl,
+ul.corporate-materials,
+ul.fund-materials {
+	padding: 1.5rem !important;
+}
+ul.corporate-materials li:last-of-type .btn {
+	margin-bottom: 0;
+}
+h2 {
+	font-size: 1rem!important;
+	margin-bottom: 1.25rem;
+}
+.fund-materials > li {
+	margin-bottom: 2rem;
+}
+.fund-materials > li:last-of-type {
+	margin-bottom: 0;
+}
+.dropdown-item {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+}
+.dropdown-item > img {
+	width: 40px;
+	margin-right: 0.5rem!important;
+}
+
+@media screen and (min-width: 576px) {
+	header > .container-xxl {
+		display: flex;
+	}
+	.intro {
+		order: 1;
+		margin-right: 3rem;
+		flex-grow: 1;
+	}
+	.logo {
+		order: 2;
+		margin-bottom: 0;
+	}
+	ul.corporate-materials,
+	ul.fund-materials > li > ul {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		grid-gap: .75rem;
+		width: calc(100% - .75rem);
+	}
+	.btn {
+		margin-bottom: 0;
+	}
+}
+@media screen and (min-width: 768px) {
+	ul.corporate-materials,
+	ul.fund-materials > li > ul {
+		grid-template-columns: 33.33% 33.33% 33.33%;
+		width: calc(100% - 1.5rem);
+	}
+}
+@media screen and (min-width: 1200px) {
+	header > .container-xxl {
+		padding: 3rem !important;
+	}
+	ul.corporate-materials,
+	ul.fund-materials {
+		padding: 2rem 3rem !important;
+	}
+	.logo {
+		width: 80px;
+		height: 80px;
+	}
+	.container-xxl {
+	  border-left: 2px solid #003b4a;
+		border-right: 2px solid #003b4a;
+	}
+	ul.corporate-materials,
+	ul.fund-materials > li > ul	{
+		display: flex;
+	}
+	ul.fund-materials > li > ul	{
+		justify-content: space-around!important;
+	}
+	ul.fund-materials > li > ul > li	{
+		flex: 1 1 auto!important;
+	}	
+	ul.fund-materials > li {
+		display: grid;
+		grid-template-columns: 35% 65%;		
+		align-items: center;
+		border-bottom: 1px solid #dee2e6;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		margin-bottom: 0;
+	}
+	ul.fund-materials > li:first-of-type {
+		padding-top: 0;
+	}
+	h2 {
+		margin-bottom: 0;
+	}
+	.btn {
+		display: auto;
+	}
+}
