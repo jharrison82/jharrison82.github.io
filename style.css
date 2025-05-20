@@ -193,7 +193,7 @@ a.external::after {
   .bd-toc-collapse {
     display: block !important;
   }
-  .bd-content p {
+  .bd-content {
     font-size: 1.15rem;
   }
 }
