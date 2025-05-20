@@ -2,6 +2,9 @@ html {
   scroll-padding-top: 6rem;
   overflow-anchor: none;
 }
+body {
+  font-family: Georgia, serif;
+}
 .navbar-brand {
   overflow-x: auto !important;
   font-family: 'Rubik', sans-serif;
