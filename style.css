@@ -122,6 +122,9 @@ body#pg-marketing-materials .bd-links-nav li.marketing-materials a {
 caption {
   font-weight: 700;
 }
+a.external {
+  white-space: nowrap;
+} 
 a.external::after {
   display: inline-block;
   content: "";
