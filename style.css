@@ -65,6 +65,7 @@ body#pg-target-audience .bd-links-nav li.target-audience a,
 body#pg-languages .bd-links-nav li.languages a,
 body#pg-marketing-materials .bd-links-nav li.marketing-materials a {
   font-weight: 600;
+  text-decoration: underline;
 }
 .bd-links-nav a:hover {
   text-decoration: underline;
