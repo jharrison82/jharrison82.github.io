@@ -38,6 +38,7 @@ h1 {
 }
 .header-link .bi {
   color: #999999;
+  margin-left: .25rem;
 }
 .header-link:hover{
   text-decoration: underline;
