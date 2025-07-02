@@ -3,7 +3,7 @@ html {
   overflow-anchor: none;
 }
 body {
-  font-family: Georgia, serif;
+  font-family: "Segue UI", sans-serif;
 }
 .navbar-brand {
   overflow-x: auto !important;
