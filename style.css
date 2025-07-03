@@ -238,6 +238,9 @@ a.external::after {
     font-size: 1.15rem;
     line-height: 1.6;
   }
+  .bd-content .figure-caption p {
+    font-size: 1.15rem;
+  }
 }
 
 @media (min-width: 992px) {
