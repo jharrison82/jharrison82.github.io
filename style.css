@@ -235,11 +235,11 @@ a.external::after {
   .bd-content p,
   .bd-content ol,
   .bd-content ul {
-    font-size: 1.15rem;
+    font-size: 1.05rem;
     line-height: 1.6;
   }
   .bd-content .figure-caption p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -297,5 +297,14 @@ a.external::after {
     padding: 0;
     overflow-y: visible;
     background-color: transparent!important;
+  }
+  .bd-content p,
+  .bd-content ol,
+  .bd-content ul {
+    font-size: 1.15rem;
+    line-height: 1.6;
+  }
+  .bd-content .figure-caption p {
+    font-size: 1.1rem;
   }
 }
