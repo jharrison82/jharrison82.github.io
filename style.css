@@ -29,6 +29,9 @@ h1 {
   border: 1px solid rgba(0,0,0,.25);
   margin-bottom: 2rem;
 }
+.task h4 {
+  margin-bottom: 1rem;
+}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   line-height: 1.4;
 }
