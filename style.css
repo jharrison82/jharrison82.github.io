@@ -79,7 +79,8 @@ h1 {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
-.bd-links-nav li {
+.bd-links-nav li,
+.bd-links-nav li > span {
   margin-bottom: .75rem;
 }
 .bd-links-nav a {
