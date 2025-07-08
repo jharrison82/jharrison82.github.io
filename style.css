@@ -200,15 +200,6 @@ a.external::after {
   margin-bottom: 0;
 }
 
-#strategies-table th[scope="col"].small {
-  font-size: .7rem;
-  width: 12.5%;
-}
-#strategies-table .bi {
-  font-size: .55rem;
-  color: #666666;
-}
-
 .bd-sidebar { grid-area: sidebar; }
 .bd-main { grid-area: main; }
 .bd-intro { grid-area: intro; }
@@ -234,15 +225,6 @@ a.external::after {
   }
   .bd-toc-collapse {
     display: block !important;
-  }
-  .bd-content p,
-  .bd-content ol,
-  .bd-content ul {
-    font-size: 1.05rem;
-    line-height: 1.65;
-  }
-  .bd-content .figure-caption p {
-    font-size: 1rem;
   }
 }
 
