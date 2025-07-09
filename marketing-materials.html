@@ -174,14 +174,34 @@
 							<a class="header-link" href="#setting-up-download-tracking">Setting up download tracking<i class="bi bi-link-45deg"></i></a>
 						</h2>
 
-						<p>Once the available materials have been identified, the next step is to make sure they are hosted properly and to ensure any downloads can be tracked in the marketing automation system.</p>
+						<p>Once all materials have been identified, the next step is to make sure downloads are tracked by the marketing automation system so they can be attributed to tracked contacts. Without this step, we would only know how many times a document was downloaded via the website analytics software (e.g., Google Analytics) but wouldn’t know who downloaded them.</p>
+
+						<p>Note that this step can be skipped if you are hosting documents in the marketing automation system, as any downloads should already be attributed to specific tracked contacts.</p>
+
+						<p>Otherwise, your firm will probably be hosting documents in one of many available document management systems – some of which require a lot of unnecessary tagging or other maintenance – or even externally (for example, if another company produces and hosts factsheets).</p>
+
+						<p>Regardless of which system your firm uses, or if documents are stored externally, there is one simple requirement: each document should be available on a static, publicly available URL. The link should always link to the latest version of the document and not change when a new version of a document is uploaded (obviously, it should also be clear who is responsible for updating each document, to ensure the links remain up-to-date).</p>
+
+						<p>Then, a redirect URL needs to be created in the marketing automation system for every document. This link redirects to the original document URL and, without the downloader noticing anything different, makes the marketing automation system aware of the download. If the contact is being tracked, the download is assigned to that contact and logged on their contact record.</p>
+
+						<p>Additionally, marketing automation systems usually allow the redirect link to be created as a more memorable vanity URL – which is helpful if the document management system uses long, complicated links.</p>
+
+						<p>As an example, a factsheet for a US Equity Fund may be hosted on the following link in the firm’s document management system:</p>
+
+						<code>https://documents.lam.com/api/documents/view?documentid=JHysSSjuS_22</code>
+
+						<p>In this case a redirect link is created in the marketing automation system, which is much more readable:</p>
+
+						<code>https://www2.lam.com/documents/lam-us-equity-fund-factsheet-a-acc-usd.pdf</code>
+
+						<p>This URL redirects to the original link in the document management system. Anyone who downloads the link will simply see the document as normal, but if they are being tracked by the marketing automation system, the download is attributed to them and logged on their contact record. Additionally, the link, if viewed in Google Analytics or any other website analytics software, is much more clearer as to what is being downloaded.</p>
+
+						<div class="task p-4">
+							<h4 class="h5 fw-bold"><i class="bi bi-pin-angle me-2"></i>Task</h4>
+							<p class="mb-0">Create redirect links for all marketign materials.</p>
+						</div>
+
 						
-						
-						<p>Marketing materials may be stored and hosted on a variety of <a class="external" href="https://en.wikipedia.org/wiki/Document_management_system" target="_blank">document management systems</a> or with <a class="external" href="https://en.wikipedia.org/wiki/Digital_asset_management" class="_blank">digital asset management software</a>.</p>
-												
-						<p>Regardless of which specific system or software your firm uses for hosting documents, we only have a single &mdash; but important &mdash; requirement: <strong>each document should be available on a static URL, which always links to the latest version, doesn't change when the document is updated, and is publicly available</strong>.</p>
-						
-						<p>It should also be clear who is responsible for updating each document, to ensure they stay up-to-date.</p>
 						
 						<!-- copy up to here -->
 						
