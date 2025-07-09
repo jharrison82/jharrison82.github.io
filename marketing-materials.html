@@ -75,7 +75,12 @@
 								<ul>
 									<li><a href="#introduction">Introduction</a></li>
 									<li><a href="#collating-materials">Collating materials</a></li>
-									<li><a href="#setting-up-download-tracking">Setting up download tracking</a></li>
+									<li><a href="#setting-up-download-tracking">Setting up download tracking
+										<ul> 
+											<li><a href="#document-hosting">Document hosting</a></li>
+											<li><a href="#redirect-urls">Redirect URLs</a></li>
+										</ul>									
+									</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -175,12 +180,20 @@
 						</h2>
 
 						<p>With all materials identified, the next step is to ensure sure any downloads can be tracked by the marketing automation system and attributed to tracked contacts &mdash; otherwise, they remain anonymous.</p>
+
+						<h3 id="document-hosting" class="h5 border-bottom pt-3 pb-3 mb-3">
+							<a class="header-link" href="#pooled-funds">Document hosting<i class="bi bi-link-45deg"></i></a>
+						</h3>
 						
 						<p>Materials are usually hosted in one of many available <strong>document management systems</strong> or sometimes externally (for example, if another company produces and hosts factsheets). Occasionally, documents are hosted directly in the marketing automation system, in which case this step can be skipped, as tracking should already be in place.</p>
 
 						<p>Some document management systems require lots of unnecessary tagging and maintenance, but regardless of which system is used &mdash; or for documents tored externally &mdash; we only have one requirement: each document should be available on a static, publicly available URL.</p>
 						
 						<p>This URL should always link to the latest version of the document and not change when new versions of the document are uploaded (obviously, it should also be clear who is responsible for updating each document, to ensure the links remain up-to-date).</p>
+
+						<h3 id="redirect-urls" class="h5 border-bottom pt-3 pb-3 mb-3">
+							<a class="header-link" href="#redirect-urls">Redirect URLs<i class="bi bi-link-45deg"></i></a>
+						</h3>
 
 						<p>A <strong>redirect URL</strong> is then created in the marketing automation system for each document. It redirects to the original document URL and &mdash; without the downloader noticing anything different &mdash; makes the marketing automation system aware of the download. If the contact is being tracked, the download is assigned to that contact and logged on their contact record. These links can usually be created as more memorable <strong>vanity URLs</strong> &mdash; helpful when the document management system uses long, complicated links.</p>
 
