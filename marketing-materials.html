@@ -198,27 +198,27 @@
 							<a class="header-link" href="#redirect-urls">Redirect URLs<i class="bi bi-link-45deg"></i></a>
 						</h3>
 
-						<p>A <strong>redirect URL</strong> is then created in the marketing automation system for each document. It redirects to the original document URL and &mdash; without the downloader noticing anything different &mdash; makes the marketing automation system aware of the download. If the contact is being tracked, the download is assigned to that contact and logged on their contact record. These links can usually be created as more memorable <strong>vanity URLs</strong> &mdash; helpful when the document management system uses long, complicated links.</p>
+						<p><strong>Redirect URLs</strong> are then created in the marketing automation system for each document. When clicked on, these links redirect to the original hosted document URL &mdash; without the downloader noticing anything different &mdash; so the marketing automation system can track the download. If the contact is being tracked, the download is assigned to them and logged on their contact record.</p>
 
-						<p>As an example, a factsheet for a US Equity Fund may be hosted on the following link in the firm’s document management system:</p>
+						<p>Another benefit of redirect URLs is the ability to customise the link to make it more clear and memorable &mdash; which is helpful when the document management system uses long, complicated links.</p>
+
+						<p>For example, a factsheet for a US Equity Fund may be hosted on the following link in the firm’s document management system:</p>
 
 						<div class="code-snippet language-html mb-3">
 							<code>https://documents.lam.com/api/documents/view?documentid=JHysSSjuS_22</code>
 						</div>
 
-						<p>A more readable redirect link is created for the document in the marketing automation system:</p>
+						<p>It’s not obvious &mdash; from looking at the URL &mdash; what it links to, but the redirect link can be customised to make this clear:</p>
 
 						<div class="code-snippet language-html mb-3">
 							<code>https://www2.lam.com/documents/lam-us-equity-fund-factsheet-a-acc-usd.pdf</code>
 						</div>
 
-						<p>This URL redirects to the original link in the document management system. Anyone who downloads the link will simply see the document as normal, but if they are being tracked by the marketing automation system, the download is attributed to them and logged on their contact record.</p>
-
-						<p>Finally, any download links on the website need to be replace with the redirect URLs.</p>
+						<p>As a final step, the original document links on the corporate website should then be replaced with the redirect URLs. Once complete, website visitors who download documents will access the document as normal, but the download will attributed to any tracked contacts and logged on their contact record.</p>
 
 						<div class="task p-4">
 							<h4 class="h5 fw-bold"><i class="bi bi-pin-angle me-2"></i>Task</h4>
-							<p class="mb-0">Create redirect links for all marketing materials.</p>
+							<p class="mb-0">Create redirect links for all marketing materials and replace the original document links on any public-facing websites.</p>
 						</div>
 
 						<!-- copy up to here -->
