@@ -1,1 +1,59 @@
 # Digital Marketing for B2B Investment Management
+
+> A practical guide for B2B asset managers looking to drive engagement and support sales.
+
+## Chapters
+- [Introduction](/): Introduction
+- [Goals & Objectives](/goals-and-objectives.html):
+
+## Sitemap
+
+https://digital-marketing-for-b2b-investment.management/sitemap.xml
+
+## Bot Access Policy
+
+- **User-agent: gptbot**  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- **User-agent: claudebot**  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- **User-agent: google-extended**  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- **User-agent: perplexitybot**  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- **User-agent: neevabot**  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- **User-agent: youbot**  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- **User-agent: ccbot** (Common Crawl)  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- **User-agent: duckduckbot** (DuckDuckGo AI)  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- **User-agent: yandexbot**  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+- **User-agent: archive.org_bot**  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
+
+### Default Rule for Unspecified or Future Bots
+
+- **User‑agent: \***  
+  Allow‑Training: yes  
+  Allow‑Retrieval: yes  
