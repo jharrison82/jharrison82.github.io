@@ -94,22 +94,72 @@
 							<a class="header-link" href="#investor-type-and-location">Investor type & location<i class="bi bi-link-45deg"></i></a>
 						</h2>
 
-						<p>A website visitor’s first online encounter with a B2B investment manager is usually being forced to select an <strong>investor type</strong> and/or <strong>location</strong> before they can access any content on the website. This comes from financial regulation around marketing investment products &mdash; to prevent retail investors accessing content deemed too complicated or products being shown in regions where they aren’t available.</p>
+						<p>A website visitor’s first online encounter with a B2B investment manager is usually being forced to select an <strong>investor type</strong> and/or <strong>location</strong> before they can access any content on the website. This comes from financial regulation around marketing investment products to prevent retail investors from accessing content deemed too complicated or investment products being shown in regions where they aren’t available.</p>
 
-						<p>While it can sometimes be a rather blunt and off-putting experience &mdash; and should therefore be made as seamless as possible &mdash; it means the marketing team can define what content is shown to various audience segments up-front (even in cases where it might not be a regulatory requirement, such as showing relevant sales contacts).</p>
+						<p>Obviously, as their selections can’t be verified, visitors can simply lie. Therefore, lengthy disclaimers are usually added that must be accepted before content can be viewed.</p>
 
-						<p>A visitor’s selections are often stored as a JavaScript variable and a cookie set on their browser so they don’t have to reselect them each time they visit.</p>
+						<p>While it can sometimes be a rather blunt and off-putting experience &mdash; and should therefore be made as seamless as possible &mdash; it does allow the marketing team to define up-front what content is shown to key audience segments (which can apply even when it isn’t a regulatory requirement, such as showing relevant sales contacts).</p>
 
-						<p>Obviously, visitors can lie &mdash; as their selections can’t be verified &mdash; and so lengthy disclaimers are usually added that must be accepted before content can be viewed.</p> 
+						<p>The website navigation, pages, and even blocks of content can be personalised for website visitors based on their selections by using rules in the website <strong>content management system (CMS)</strong>.</p>
+
+						<p>A visitor’s selections are often stored as a JavaScript variables and a cookie set on their browser so they don’t have to reselect them each time they visit.</p> 
 
 						<h3 id="investor-type" class="h5 border-bottom pt-3 pb-3 mb-3">
 							<a class="header-link" href="#investor-type">Investor type<i class="bi bi-link-45deg"></i></a>
 						</h3>
 
-						<p>For investor type, the simplest option is to distinguish between <strong>professional</strong> and <strong>non-professional</strong> (or retail) investors. This lets members of the general public apply for jobs and access high-level information about the firm, while giving professional investors access to all content &mdash; strategies, products, thought leadership &mdash; and allowing them to subscribe to topics of interest.</p>
+						<p>For investor type, the simplest option for a B2B investment manager is to distinguish between <strong>professional</strong> and <strong>non-professional</strong> (or <strong>retail</strong>) investors. This enables members of the general public to apply for jobs and access high-level information about the firm, while allowing professional investors to see additional content &mdash; strategies, products, thought leadership &mdash; and subscribe to topics of interest.</p>
 
-						<p>Some firms split the professional investor choice further into the two main <a href="/target-audience#organisations-and-client-groups">client groups</a> &mdash; <strong>institutional</strong> and <strong>intermediary</strong>. This would make sense if there was enough difference in content produced for each segment to justify the distinction &mdash; for example, if an investment manager creates specific content for advisors to use with their retail-clients &mdash; but is sometimes put in place anyway, simply for familiarity reasons.</p>
+						<p>Some firms split the professional investor choice further into the two main <a href="/target-audience#organisations-and-client-groups">client groups</a> &mdash; <strong>institutional</strong> and <strong>intermediary</strong> &mdash; if they want to show specific content to each segment (for example, when content is produced for advisors to share with their retail clients).</p>
 
+						<h3 id="investor-location" class="h5 border-bottom pt-3 pb-3 mb-3">
+							<a class="header-link" href="#investor-location">Investor location<i class="bi bi-link-45deg"></i></a>
+						</h3>	
+
+						<p>If a firm offers products in more than one country, website visitors are usually asked to set their location so that available pooled funds &mdash; and in some cases specific content &mdash; can be displayed.</p>
+
+						<h2 id="single-vs-multiple-website-domains" class="h4 border-bottom pt-3 pb-3 mb-3">
+							<a class="header-link" href="#single-vs-multiple-website-domains">Single vs multiple website domains<i class="bi bi-link-45deg"></i></a>
+						</h2>
+
+						<p>If a firm offers products across multiple countries and regions, they may choose to host multiple websites on local country domains where products are available (for example, <strong>.com</strong>, <strong>.it</strong>, or <strong>co.uk</strong>).</p>
+
+						<p></p>When a new visitor arrives on any of the firm’s websites, they are immediately prompted to provide their investor type and location, and are then redirected to the relevant domain based on their country selection (or sometimes a “catch-all” domain).</p>
+
+						<p>Another option is to use a <strong>single domain for all visitors globally</strong>, who are still prompted to provide their location, but remain on the same domain once their location is selected.</p>
+
+						<p>While there are probably SEO benefits that come with having local websites, it can create some complications for smaller digital marketing teams. While a CMS usually allows a page to be published across multiple domains at the same time, when it comes to distributing content via social media and email, it can be helpful to only have to share a single URL across a global audience.</p>
+
+						<p>In some cases, I’ve seen investor type used within URLs. This means a page will have different URLs for each investor type, even when the content is exactly the same:</p>
+
+						<h4 class="h6 mb-2">Institutional:</h4>
+
+						<div class="code-snippet language-html mb-3">
+							<code>https://www.lam.com/institutional/about-us</code>
+						</div>
+
+						<h4 class="h6 mb-2">Intermediary:</h4>
+
+						<div class="code-snippet language-html mb-3">
+							<code>https://www.lam.com/intermediary/about-us</code>
+						</div>
+
+						<p>There may be some reason for doing this (which escapes me) but it does add complexity in the same way as having multiple website domains. Therefore, I would avoid this practice if possible, and keep the URL the same for all investor types. Content can still be customised by using the JavaScript variables and setting rules in the website CMS.</p>
+
+						<h2 id="permissions" class="h4 border-bottom pt-3 pb-3 mb-3">
+							<a class="header-link" href="#single-vs-multiple-website-domains">Permissions<i class="bi bi-link-45deg"></i></a>
+						</h2>
+
+						<p>It’s possible that visitors will arrive on a page directly from a search engine, but once their investor type and location have been selected, the content can’t be shown to them for regulatory reasons (for example, a website visitor in the UK landing on a US mutual fund page).</p>
+
+						<p>In these cases &mdash; which can be frustrating for the visitor &mdash; a message can be overlaid explaining the reason(s) why they can’t be shown the content, and offering other links of interest, similar to a 404 error page.</p>
+
+						<p>One way to help reduce this issue occurring is by adding an HTML attribute called <strong>hreflang</strong> to a page to specify which country (and/or language) it's targeted for. This is especially important if the firm is using a single domain:</p>
+
+						<div class="code-snippet language-html mb-3">
+							<code><link rel="alternate" hreflang="en-us" href="https://www.lam.com/mutual-funds/us-equity-fund" /></code>
+						</div>
+						
 						<!-- copy up to here -->
 						
 					</div>
