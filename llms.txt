@@ -2,6 +2,13 @@
 
 > A practical guide for B2B asset managers looking to drive engagement and support sales.
 
+## Chapters
+- [Introduction](https://digital-marketing-for-b2b-investment.management/): An introduction to the main ideas behind the adapted inbound marketing approach.
+- [Goals & Objectives](https://digital-marketing-for-b2b-investment.management/goals-and-objectives): Why goal-setting should be replaced with a more practical and sustainable approach focused on how you work.
+- [Strategy Overview](https://digital-marketing-for-b2b-investment.management/strategy-overview): An overview of the steps required to build the digital marketing infrastructure and ongoing work once it's in place.
+- [Products & Strategies)[https://digital-marketing-for-b2b-investment.management/products-and-strategies]: Documenting your firm’s investment strategies and vehicles.
+- [Target Audience](https://digital-marketing-for-b2b-investment.management/target-audience): Defining your firm's target audience.
+
 ## Sitemap
 
 https://digital-marketing-for-b2b-investment.management/sitemap.xml
