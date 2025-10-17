@@ -78,10 +78,10 @@
 										<ul>
 											<li><a href="#investor-type">Investor type</a></li>
 											<li><a href="#visitor-location">Visitor location</a></li>
+											<li><a href="#permissions">Permissions</a></li>
 										</ul>
 									</li>
 									<li><a href="#single-vs-multiple-website-domains">Single vs multiple website domains</a></li>
-									<li><a href="#permissions">Permissions</a></li>
 									<li><a href="#languages">Languages</a></li>
 								</ul>
 							</nav>
@@ -125,6 +125,20 @@
 
 						<p>When an investment manager offers products in more than one country, website visitors are usually asked to set their location so available <a href="/products-and-strategies#pooled-funds">pooled funds</a> &mdash; and in some cases specific content &mdash; can be displayed.</p>
 
+						<h3 id="permissions" class="h5 border-bottom pt-3 pb-3 mb-3">
+							<a class="header-link" href="#permissions">Permissions<i class="bi bi-link-45deg"></i></a>
+						</h2>
+
+						<p>As it can only be determined if a page is appropriate for a visitor after their investor type and location have been selected, this can cause problems when visitors arrive directly from search engines.</p>
+
+						<p>If it turns out a page can’t be shown to a visitor due to their investor type or location &mdash; such as someone based in the UK landing on a US mutual fund page &mdash; a message can explain why it can’t be shown and offer other options or instructions (similar to a helpful 404 error page).</p>
+
+						<p>A self-referential HTML attribute called <a class="external" href="https://ahrefs.com/blog/hreflang-tags/" target="_blank">hreflang</a> can be added to pages that target a specific country to help prevent this happening:</p>
+
+						<div class="code-snippet language-html mb-3">
+							<code>&lt;link rel="alternate" hreflang="en-us" href="https://www.lam.com/mutual-funds/us-equity-fund" /&gt;</code>
+						</div>
+
 						<h2 id="single-vs-multiple-website-domains" class="h4 border-bottom pt-3 pb-3 mb-3">
 							<a class="header-link" href="#single-vs-multiple-website-domains">Single vs multiple website domains<i class="bi bi-link-45deg"></i></a>
 						</h2>
@@ -132,20 +146,6 @@
 						<p>If an investment manager offers products across multiple countries and regions, they can host multiple websites on local country domains where products are available (for example, <strong>.com</strong>, <strong>.it</strong>, or <strong>co.uk</strong>), or stick to a single domain for all visitors. Once a location has been selected, visitors can be redirected to the relevant domain or content tailored appropriately.</p>
 
 						<p>While there are probably SEO benefits from hosting local websites, it can create some complications for smaller digital marketing teams in their day to day work. For example, while a website CMS usually allows a page to be published across multiple domains at the same time, when it comes to distributing content via social media and email, it can be helpful to only have to share a single URL across a global audience.</p>
-
-						<h2 id="permissions" class="h4 border-bottom pt-3 pb-3 mb-3">
-							<a class="header-link" href="#permissions">Permissions<i class="bi bi-link-45deg"></i></a>
-						</h2>
-
-						<p>Visitors will occasionally arrive on a page directly from a search engine, but once their investor type and location have been selected, it then turns out the content can’t be shown to them (for example, a website visitor in the UK landing on a US mutual fund page).</p>
-
-						<p>In these cases &mdash; which can be frustrating for the visitor &mdash; a message can be overlaid explaining the reason(s) why they can’t be shown the content, and offering other links of interest, similar to a 404 error page.</p>
-
-						<p>If the firm uses a single domain, this issue can be reduced by adding a self-referential HTML attribute called <strong>hreflang</strong> to any pages which target a specific country:</p>
-
-						<div class="code-snippet language-html mb-3">
-							<code>&lt;link rel="alternate" hreflang="en-us" href="https://www.lam.com/mutual-funds/us-equity-fund" /&gt;</code>
-						</div>
 
 						<h2 id="languages" class="h4 border-bottom pt-3 pb-3 mb-3">
 							<a class="header-link" href="#languages">Languages<i class="bi bi-link-45deg"></i></a>
