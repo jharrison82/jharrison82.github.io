@@ -79,7 +79,6 @@
 										<ul>
 											<li><a href="#investor-type">Investor type</a></li>
 											<li><a href="#visitor-location">Visitor location</a></li>
-											<li><a href="#permissions">Permissions</a></li>
 										</ul>
 									</li>
 									<li><a href="#single-vs-multiple-website-domains">Single vs multiple website domains</a></li>
@@ -94,13 +93,13 @@
 					
 						<!-- copy below here -->
 
-						<p>In this chapter, we run through the typical website setup for a B2B investment manager and cover a few requirements for implementing the <a href="/strategy-overview">digital marketing infrastructure</a>.</p>
+						<p>In this chapter, we briefly run through the typical website setup for a B2B investment manager.</p>
 
 						<h2 id="content" class="h4 border-bottom pt-3 pb-3 mb-3">
 							<a class="header-link" href="#content">Content<i class="bi bi-link-45deg"></i></a>
 						</h2>
 
-						<p>Most websites consist of content grouped within four main sections:</p>
+						<p>Most websites will consist of content grouped into four sections:</p>
 
 						<ul>
 							<li class="mb-3"><strong>Products</strong> &mdash; information about available <a href="/products-and-strategies">products &amp; strategies</a></li>
@@ -113,7 +112,7 @@
 							<a class="header-link" href="#investor-type-and-location">Investor type & location<i class="bi bi-link-45deg"></i></a>
 						</h2>
 
-						<p>Before they can access any content, a website visitor is usually asked to select their <strong>investor type</strong> and/or <strong>location</strong> from a list of options. These selections can’t be verified, so lengthy disclaimers are typically added which must also be accepted.</p>
+						<p>Before they can access any content, visitors are usually asked to select their <strong>investor type</strong> and/or <strong>location</strong> from a list of options. These selections can’t be properly verified, so lengthy disclaimers are typically added which must also be accepted.</p>
 
 						<p>While this can be a rather blunt and off-putting experience &mdash; and should therefore be made as seamless as possible &mdash; it does allow the website to be personalised for each visitor based on their selections, using rules set in the website <strong>content management system (CMS)</strong>.</p> 
 
@@ -130,9 +129,9 @@
 							<li class="mb-2">Non-professional (or retail) investor</li>
 						</ul>
 
-						<p>Although this does assume all visitors must be prospective investors, those visiting for a different reason &mdash; mainly job seekers and journalists &mdash; can be grouped under non-professionals. Their access to content can be restricted to job applications and high-level firm information, while professionals can access all content and subscribe to topics of interest. </p>
+						<p>Although this does assume all visitors are investors of some kind, those visiting for a different reason &mdash; mainly job seekers and journalists &mdash; can be grouped under non-professionals. Their access can be restricted to job applications and high-level firm information, while professionals are able to access all content and subscribe to topics of interest.</p>
 
-						<p>The professional investor option is commonly divided further into the two main <a href="/target-audience#organisations-and-client-groups">client groups</a> (<strong>institutional</strong> and <strong>intermediary</strong>). This can be for familiarity reasons or because the investment manager produces content specifically aimed at one group (such as educational content for <a href="/target-audience#intermediary-clients">advisors</a> to use with their retail clients).</p>
+						<p>The professional investor option is commonly divided further into the two <a href="/target-audience#organisations-and-client-groups">client groups</a> &mdash; <strong>institutional</strong> and <strong>intermediary</strong> &mdash; either for familiarity reasons or because the investment manager produces content specifically aimed at one group (e.g. educational content for <a href="/target-audience#intermediary-clients">advisors</a> to use with their retail clients).</p>
 
 						<h3 id="visitor-location" class="h5 border-bottom pt-3 pb-3 mb-3">
 							<a class="header-link" href="#visitor-location">Visitor location<i class="bi bi-link-45deg"></i></a>
@@ -140,25 +139,11 @@
 
 						<p>When an investment manager offers products in more than one country, website visitors are usually asked to set their location so available <a href="/products-and-strategies#pooled-funds">pooled funds</a> &mdash; and in some cases specific content &mdash; can be displayed.</p>
 
-						<h3 id="permissions" class="h5 border-bottom pt-3 pb-3 mb-3">
-							<a class="header-link" href="#permissions">Permissions<i class="bi bi-link-45deg"></i></a>
-						</h2>
-
-						<p>As it can only be determined if a page is appropriate for a visitor after their investor type and location have been selected, this can cause problems when visitors arrive directly from search engines.</p>
-
-						<p>If it turns out a page can’t be shown &mdash; when a UK-based visitor lands on a US mutual fund page, for example &mdash; a message can be overlaid to explain why it can’t be shown and offer alternative options or instructions (similar to a helpful 404 error page).</p>
-
-						<p>A self-referential HTML attribute called <a class="external" href="https://ahrefs.com/blog/hreflang-tags/" target="_blank">hreflang</a> can be added to pages that target a specific country to help prevent this happening:</p>
-
-						<div class="code-snippet language-html mb-3">
-							<code>&lt;link rel="alternate" hreflang="en-us" href="https://www.lam.com/mutual-funds/us-equity-fund" /&gt;</code>
-						</div>
-
 						<h2 id="single-vs-multiple-website-domains" class="h4 border-bottom pt-3 pb-3 mb-3">
 							<a class="header-link" href="#single-vs-multiple-website-domains">Single vs multiple website domains<i class="bi bi-link-45deg"></i></a>
 						</h2>
 
-						<p>If an investment manager offers products in more than one country, they may choose to host multiple websites on local country domains where products are available (for example, <strong>.com</strong>, <strong>.it</strong>, or <strong>co.uk</strong>), or stick to a single domain for all visitors. Once a location has been selected, visitors can be redirected to the relevant domain or content tailored appropriately.</p>
+						<p>If an investment manager offers products in multiple countries, they may choose to host websites on local country domains where products are available (for example, <strong>.com</strong>, <strong>.it</strong>, or <strong>co.uk</strong>) or use a single domain for all visitors. Once a visitor’s location has been selected, they can either be redirected to the relevant domain or content tailored appropriately.</p>
 
 						<p>While there are probably SEO benefits from hosting local websites, it can create some complications for smaller digital marketing teams in their day to day work. For example, while a website CMS usually allows a page to be published across multiple domains at the same time, when it comes to distributing content via social media and email, it can be helpful to only have to share a single URL across a global audience.</p>
 
@@ -170,31 +155,15 @@
 
 						<p>Luckily, advances in technology are making the task much easier. Tools are available that can automate translation entirely (such as <a class="external" href="https://www.weglot.com/" target="_blank">Weglot</a>) which allow manual corrections or translation rules to be added for specific terms, so they don’t need to be constantly corrected.</p>
 
-						<p>Usually, URLs for multilingual websites remain in the default language of the website &mdash; usually English, if it’s a global investment manager &mdash; with a two-letter <a class="external" href="https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes" target="_blank">ISO language code</a> added when another language is selected:</p>
-
-						<h4 class="h6 mb-2">English:</h4>
-
-						<div class="code-snippet language-html mb-3">
-							<code>https://www.lam.com/institutional/about-us</code>
-						</div>	
-
-						<h4 class="h6 mb-2">Spanish:</h4>
-
-						<div class="code-snippet language-html mb-3">
-							<code>https://www.lam.com/es/intermediary/about-us</code>
-						</div>	
-
-						<p>This language code tells search engines that a page is available in multiple languages and makes it easy to share content with segments of a firm’s audience who have indicated a preferred language.</p>
-
 						<h2 id="personalisation" class="h4 border-bottom pt-3 pb-3 mb-3">
 							<a class="header-link" href="#personalisation">Personalisation<i class="bi bi-link-45deg"></i></a>
 						</h2>
 
 						<p>Beyond personalising the website for various investor types and locations, there are often aspirations to expand it to include a visitor’s previous browsing behaviour, subscriptions, or even data within their CRM record (like <a href="/#lack-of-transaction-and-holdings-data">products they might be invested in</a>).</p>
 
-						<p>However, visits to B2B investment manager’s websites tend to be brief. Unlike Netflix or Amazon &mdash; where people land on the homepage with a specific intention to browse for something to watch or buy &mdash; visitors usually arrive on a specific page from a search engine or email (such as a product or blog page), find what they are looking for, and leave.</p>
+						<p>However, it’s important to understand that visits to B2B investment manager’s websites tend to be brief. Unlike Netflix or Amazon &mdash; where people land on the homepage with a specific intention to browse for something to watch or buy &mdash; visitors usually land on a specific page, find what they are looking for, and leave.</p>
 
-						<p>When a visitor <em>does</em> land on the homepage, they will most likely be looking for something specific, and want to find it quickly. Therefore, making sure visitors can find what they need as quickly and easily as possible should be a priority &mdash; with a clear website structure, intuitive navigation, well-presented information, and a useful search function.</p>
+						<p>When a visitor <em>does</em> land on the homepage, it’s likely they are looking for something specific, which they want to find quickly. Therefore, it should be a priority to ensure that visitors can find what they need as quickly and easily as possible – through a clear website structure, intuitive navigation, well-presented information, and a useful search function.</p>
 
 						<p>There’s no harm in personalising for content preferences &mdash; I just wouldn’t expect any earth-shattering results from doing so.</p>
 						
