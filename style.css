@@ -167,7 +167,7 @@ caption {
   font-weight: 700;
 }
 a.external {
-  white-space: nowrap;
+  /* white-space: nowrap;*/
 } 
 a.external::after {
   display: inline-block;
