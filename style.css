@@ -211,6 +211,12 @@ a.external::after {
 .bd-example p:last-child {
   margin-bottom: 0;
 }
+ul.url-structure {
+  list-style-type: none;
+}
+ul.url-structure li:before {
+  content: "hi";
+}
 
 .bd-sidebar { grid-area: sidebar; }
 .bd-main { grid-area: main; }
