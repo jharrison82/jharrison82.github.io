@@ -215,7 +215,7 @@ ul.url-structure {
   list-style-type: none;
 }
 ul.url-structure li:before {
-  content: "hi";
+  content: "\21B3";
 }
 
 .bd-sidebar { grid-area: sidebar; }
