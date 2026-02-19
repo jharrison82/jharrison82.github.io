@@ -83,7 +83,7 @@
 										<ul>
 											<li><a href="#plan-the-website-and-URL-structure">Step 1: Plan the website and URL structure</a></li>
 											<li><a href="#source-content-and-build-pages">Step 2: Source content and build pages</a></li>
-											<li><a href="#submit-a-sitemap-and-start-monitoring">Step 3: Submit a sitemap and start monitoring</a></li>
+											<li><a href="#submit-a-sitemap-and-start-monitoring-the-website">Step 3: Submit a sitemap and start monitoring the website</a></li>
 											<li><a href="#optimize-the-user-experience">Step 4: Optimize the user experience</a></li>
 										</ul>
 									</li>
@@ -212,8 +212,8 @@
 
 						<p>Content featuring popular keywords outside the list can be published on the firm’s blog (e.g., a popular stock held in one of the firm’s portfolios).</p>
 
-						<h3 id="submit-a-sitemap-and-start-monitoring" class="h5 border-bottom pt-3 pb-3 mb-3">
-							<a class="header-link" href="#submit-a-sitemap-and-start-monitoring">Step 3: Submit a sitemap and start monitoring<i class="bi bi-link-45deg"></i></a>
+						<h3 id="submit-a-sitemap-and-start-monitoring-the-website" class="h5 border-bottom pt-3 pb-3 mb-3">
+							<a class="header-link" href="#submit-a-sitemap-and-start-monitoring-the-website">Step 3: Submit a sitemap and start monitoring the website<i class="bi bi-link-45deg"></i></a>
 						</h3>							
 
 						<p>Next, set up a couple of useful (and free) tools to track the website’s organic search performance, monitor issues, and submit sitemaps:</p>
@@ -235,17 +235,44 @@
 							<code>https://website.domain/robots.txt</code>
 						</div>
 
-						<p>Once the website is receiving traffic, the tools can be used to monitor organic search performance (such as keyword rankings) and identify issues (such as broken links) on an ongoing basis.</p>
+						<p>Once the website is receiving traffic, the tools can then be used on an ongoing bases to identify:</p>
 
-						<p>When monitoring performance, tracking the SERP rankings of a large number of search terms isn’t useful (there’s too much data). Instead, choose a small number of high volume search terms that lack search intent and relate to a key area for the firm (a good example is “sustainable investment”).</p>
+						<ul>
+							<li class="mb-2">Search terms that lead to pages being shown in search results, where they rank, and how many clicks through to the website they generate</li>
+							<li class="mb-2">Website issues (such as broken links and indexing problems)</li>
+						</ul>
 
-						<p>Then, for each term:</p>
+						<p>As there’s so much data, there’s not much point in tracking the rankings of a large number of search terms. Instead, choose a small number of high volume search terms that lack search intent and relate to a key area for the firm (a good example is “sustainable investment”), and for each term:</p>
 
 						<ul>
 							<li class="mb-2">Perform a search</li>
 							<li class="mb-2">Identify what types of content rank on the first page of search results</li>
 							<li class="mb-2">Create similar content with the firm’s own spin on the topic</li>
 						</ul>
+
+						<h3 id="optimize-the-user-experience" class="h5 border-bottom pt-3 pb-3 mb-3">
+							<a class="header-link" href="#optimize-the-user-experience">Step 4: Optimize the user experience<i class="bi bi-link-45deg"></i></a>
+						</h3>	
+
+						<p>Finally, try to improve the user experience of website visitors as much as possible:</p>
+
+						<ul>
+							<li>Add a clear website navigation and search function</li>
+							<li>Make sure the website is mobile friendly</li>
+							<li>Use HTTPS</li>
+							<li>Reduce page load time as much as possible</li>
+							<li>Ensure the different versions of URLs (HTTP/HTTPS, www/non-www) redirect to single, chosen version</li>
+						</ul>
+
+						<p>One issue relevant for investment managers comes from the fact that it can only be determined if a page is appropriate for a visitor after their investor type and location have been selected. This can cause problems when visitors arrive directly from search engines.</p>
+						
+						<p>If it turns out a page can’t be shown – when a UK-based visitor lands on a US mutual fund page, for example – a message can be overlaid to explain why it can’t be shown and offer alternative options or instructions (rather than a 404 error page).</p>
+
+						<p>A self-referential HTML attribute called <strong>hreflang</strong> can be added to pages that target a specific country to help prevent this happening:</p>
+
+						<div class="code-snippet language-html bd-example">
+							<code><link rel="alternate" hreflang="en-us" href="https://www.lam.com/mutual-funds/us-equity-fund" /></code>
+						</div>						
 						
 						<!-- copy up to here -->
 						
